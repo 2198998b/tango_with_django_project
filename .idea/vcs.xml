@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/django_tutorial_1.11" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django_tutorial_1.11" vcs="" />
     <mapping directory="$PROJECT_DIR$/rango_tests" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/rango_tests/temporal" vcs="Git" />
   </component>
