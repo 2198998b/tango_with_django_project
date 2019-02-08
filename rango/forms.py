@@ -16,26 +16,9 @@ class CategoryForm(forms.ModelForm):
         fields = ('name',)
 
 
-# class PageForm(forms.ModelForm):
-#     title = forms.CharField(max_length=Page.max_title_length,
-#                             help_text="Please enter the title of the page.")
-#     url = forms.URLField(max_length=Page.max_url_length,
-#                          help_text="Please enter the URL of the page.")
-#     views = forms.IntegerField(widget=forms.HiddenInput(), initial=0)
-#
-#     # Override from ModelForm
-#     def clean_url(self):
-#         url = self.cleaned_data['url']
-#
-#         # If url is not empty and doesn't start with 'http://', prepend 'http://'.
-#         if url and not url.startswith('http://'):
-#             url = 'http://' + url
-#
-#             return url
-
 class PageForm(forms.ModelForm):
-    title = forms.CharField(max_length=128, help_text="Please enter the title of the page.")
-    url = forms.URLField(max_length=200, help_text="Please enter the URL of the page.")
+    title = forms.CharField(max_length=Page.max_title_length, help_text="Please enter the title of the page.")
+    url = forms.URLField(max_length=Page.max_url_length, help_text="Please enter the URL of the page.")
     views = forms.IntegerField(widget=forms.HiddenInput(), initial=0)
 
     def clean(self):

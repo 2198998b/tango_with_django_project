@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 
+{% extends 'rango/base.html' %}
 {% load staticfiles %}
 
-<html lang="en" xmlns="http://www.w3.org/1999/html">
-<head>
-    <meta charset="UTF-8">
-    <title>Rango says here is the about page</title>
-</head>
-<body>
-    <img src="{% static 'images/rango_cosplay.jpg' %} "/></br>
-    <h1>This tutorial has been put together by Liam Brodie</h1></br>
-    <a href="/rango/">Index</a><br/>
-    <img src="{{ MEDIA_URL}}cat.jpg" />
+{% block title_block %}
+    About
+{% endblock %}
 
-</body>
-</html>
+{% block body_block %}
+    <div>
+        <h1>About Page</h1>
+	        This project was put together by Liam Brodie with Tango With Django
+    </div>
+    <div>
+        <img src="{% static 'images/rango.jpg' %}" alt="Picture of Rango" />
+		<img src="{{MEDIA_URL}}cat.jpg"/>
+
+        <a href="{% url 'index' %}">Index</a></br>
+    </div>
+{% endblock %}
