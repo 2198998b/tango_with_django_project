@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="140e3fef-fe43-4d06-b29b-7d0e40b394ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/rango/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/populate_rango.py" beforeDir="false" afterPath="$PROJECT_DIR$/populate_rango.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rango/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rango/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rango/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rango_tests/temporal/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/rango_tests/temporal/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rango_tests/temporal/rango/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/rango_cowboy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tango_with_django_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rango/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rango/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/rango/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rango/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rango/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            <state relative-caret-position="612">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -36,13 +36,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tango_with_django_project/urls.py">
+        <entry file="file://$PROJECT_DIR$/templates/rango/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-              <folding>
-                <element signature="e#658#699#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/rango/category.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -59,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rango/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -71,17 +77,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rango/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="272">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/populate_rango.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="638">
+              <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -96,19 +105,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/rango/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rango/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -119,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tango_with_django_project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="791">
+            <state relative-caret-position="1649">
               <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
             </state>
           </provider>
@@ -130,8 +130,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -146,16 +146,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rango/urls.py" />
-        <option value="$PROJECT_DIR$/rango/views.py" />
         <option value="$PROJECT_DIR$/tango_with_django_project/populate_-rango.py" />
         <option value="$PROJECT_DIR$/tango_with_django_project/settings.py" />
         <option value="$PROJECT_DIR$/tango_with_django_project/urls.py" />
-        <option value="$PROJECT_DIR$/templates/rango/index.html" />
         <option value="$PROJECT_DIR$/templates/rango/about.html" />
-        <option value="$PROJECT_DIR$/rango/models.py" />
         <option value="$PROJECT_DIR$/rango/admin.py" />
+        <option value="$PROJECT_DIR$/rango/models.py" />
+        <option value="$PROJECT_DIR$/rango/urls.py" />
         <option value="$PROJECT_DIR$/populate_rango.py" />
+        <option value="$PROJECT_DIR$/templates/rango/index.html" />
+        <option value="$PROJECT_DIR$/rango/views.py" />
+        <option value="$PROJECT_DIR$/templates/rango/category.html" />
       </list>
     </option>
   </component>
@@ -285,20 +286,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tango_with_django_project/populate_-rango.py" />
-    <entry file="file://$PROJECT_DIR$/rango/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tango_with_django_project/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding>
             <element signature="e#658#699#0" expanded="true" />
           </folding>
@@ -312,6 +303,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tango_with_django_project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rango/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rango/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/rango/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -319,51 +337,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rango/index.html">
+    <entry file="file://$PROJECT_DIR$/populate_rango.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rango/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="638">
+          <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rango/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tango_with_django_project/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rango/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/populate_rango.py">
+    <entry file="file://$PROJECT_DIR$/rango/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state relative-caret-position="612">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rango/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rango/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
         </state>
       </provider>
     </entry>
